@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DC [
+    <!ELEMENT DC (Teams)>
+    <!ELEMENT Teams (Ranking, Ranking2)>
+    <!ELEMENT Ranking (Team1, HeroName1, Powers1, HeroName2, Powers2, HeroName3, Powers3)>
+    <!ELEMENT Ranking2 (Team2, Team3, Team4)>
+    <!ELEMENT Team1 (#PCDATA)>
+    <!ELEMENT HeroName1 (#PCDATA)>
+    <!ELEMENT Powers1 (#PCDATA)>
+    <!ELEMENT HeroName2 (#PCDATA)>
+    <!ELEMENT Powers2 (#PCDATA)>
+    <!ELEMENT HeroName3 (#PCDATA)>
+    <!ELEMENT Powers3 (#PCDATA)>
+    <!ELEMENT Team2 (#PCDATA)>
+    <!ELEMENT Team3 (#PCDATA)>
+    <!ELEMENT Team4 (#PCDATA)>
+]>
+
+<DC>
+    <Teams>
+        <Ranking>
+            <Team1>Justice League</Team1>
+            <HeroName1>Superman</HeroName1>
+            <Powers1>Fly</Powers1>
+            <HeroName2>Batman</HeroName2>
+            <Powers2>Rich</Powers2>
+            <HeroName3>Flash</HeroName3>
+            <Powers3>Speedster</Powers3>
+        </Ranking>
+
+        <Ranking2>
+            <Team2>Justice Society</Team2>
+            <Team3>Teen Titans</Team3>
+            <Team4>Sucide Squad</Team4>
+        </Ranking2>
+    </Teams>
+</DC>
