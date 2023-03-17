@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE DC [
+<?xml-model href="index.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<!-- <!DOCTYPE DC [
     <!ELEMENT DC (Teams)>
     <!ELEMENT Teams (Ranking, Ranking2)>
     <!ELEMENT Ranking (Team1, HeroName1, Powers1, HeroName2, Powers2, HeroName3, Powers3)>
@@ -14,7 +15,7 @@
     <!ELEMENT Team2 (#PCDATA)>
     <!ELEMENT Team3 (#PCDATA)>
     <!ELEMENT Team4 (#PCDATA)>
-]>
+]> -->
 
 <DC>
     <Teams>

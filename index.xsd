@@ -1,0 +1,44 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+                <xs:element name="DC" >
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Teams" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <!-- First -->
+                                        <xs:element name="Ranking" minOccurs="1" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Team1"
+                                                        type="xs:string" />
+                                                    <xs:element name="HeroName1" type="xs:string" />
+                                                    <xs:element name="Powers1" type="xs:string" />
+                                                    <xs:element name="HeroName2" type="xs:string" />
+                                                    <xs:element name="Powers2" type="xs:string" />
+                                                    <xs:element name="HeroName3" type="xs:string" />
+                                                    <xs:element name="Powers3" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <!-- second -->
+                                        <xs:element name="Ranking2" minOccurs="1" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Team2" type="xs:string"/>
+                                                    <xs:element name="Team3" type="xs:string"/>
+                                                    <xs:element name="Team4" type="xs:string"/>
+                                                    
+                                                
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+           
+   
+</xs:schema>
