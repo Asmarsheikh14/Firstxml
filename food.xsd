@@ -1,0 +1,19 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="products">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="food">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="food" type="xs:string"/>
+                            <xs:element name="price" type="xs:int"/>
+                            <xs:element name="rating" type="xs:int"/>
+                            <xs:element name="image" type="xs:anyURI"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="category" type="xs:string"></xs:attribute>
+        </xs:complexType>
+   </xs:element>
+</xs:schema>

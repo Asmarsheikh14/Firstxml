@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="food.xsl" type="text/xsl"?>
+
+<products>
+    <food category="Fastfood">
+        <name>Burger</name>
+        <price>500</price>
+        <rating>5</rating>
+        <image>https://images.immediate.co.uk/production/volatile/sites/30/2022/08/Chicken-Tikka-99647a6.jpg</image>
+    </food>
+    <food category="BBQ">
+        <name>Tikka</name>
+        <price>350</price>
+        <rating>4</rating>
+        <image>https://images.immediate.co.uk/production/volatile/sites/30/2022/08/Chicken-Tikka-99647a6.jpg</image>
+    </food>
+    <food category="Korean">
+        <name>Kimchi</name>
+        <price>1000</price>
+        <rating>5</rating>
+        <image>https://images.immediate.co.uk/production/volatile/sites/30/2022/08/Chicken-Tikka-99647a6.jpg</image>
+    </food>
+</products>
